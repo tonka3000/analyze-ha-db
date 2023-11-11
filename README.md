@@ -1,5 +1,9 @@
 # Analyze Home Assistant database
 
+<a target="_blank" href="https://colab.research.google.com/github/tonka3000/analyze-ha-db/blob/main/check_ha_db.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
 The notebook can be used analyze a copy of the Home Assistant sqlite database to ...
 
 - Get the states with the most updates
@@ -26,6 +30,14 @@ Required dependencies are
 #### Google Colab
 
 The easiest way to get such an environment is [Google Colab](https://colab.research.google.com).
+
+Press the following button to open the notebook in Colab.
+
+<a target="_blank" href="https://colab.research.google.com/github/tonka3000/analyze-ha-db/blob/main/check_ha_db.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
+or follow the manual steps below.
 
 1. Goto https://colab.research.google.com
 2. Logging with your Google Account
