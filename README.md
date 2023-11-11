@@ -23,6 +23,22 @@ Required dependencies are
 - pandas
 - plotly
 
+#### Google Colab
+
+The easiest way to get such an environment is [Google Colab](https://colab.research.google.com).
+
+1. Goto https://colab.research.google.com
+2. Logging with your Google Account
+
+   The notebook will directly extract the data from the backup when you store the backups in Google Drive with the same account.
+
+3. Upload the notebook to Colab
+4. Click on `Runtime` (Menu Bar) and on `Run All`
+
+   If the `get_from_gdrive_backup` option in the notebook is `True` (default) you well see a popup which will ask for permission to access your Google Drive.
+
+You can now play around with your data 😎
+
 ### Database Copy
 
 Grab a copy of the Home Assistant sqlite database file `home-assistant_v2.db` and put it next to this notebook.
