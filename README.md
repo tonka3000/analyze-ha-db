@@ -49,6 +49,18 @@ There a various ways to get the database file
 - Copy it via `scp`
 - Use Google Colab with the same account as your backups are stored
 
+### Secure Backup
+
+You need to use `extract_from_secure_backup.py` if your backup is protected by a password.
+On Windows, you also need Docker installed and running to be able to extract the database from the backup file.
+
+`python extract_from_secure_backup.py "<Path to your backup file>"`
+
+The backup file should be stored in the `data` directory next to this README file you are actually reading.
+
+After running successfully, you will be prompted to enter your password.
+Once entered, the database file will be placed in the root directory of this repository.
+
 ## License
 
 The notebook itself is licensed under MIT license.
